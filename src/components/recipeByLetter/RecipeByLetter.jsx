@@ -7,7 +7,7 @@ const RecipeByLetter = ({alphaIndex}) => {
    const alpha = ['A', "B", "C", "D", "E", "F", "J", "I", "J", "k", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
    let num=0;
 
-   const [url, setUrl] = useState("https:/www.themealdb.com/api/json/v1/1/search.php?f=b");
+   const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=b");
    const [item,setItem]=useState();
    const [show,setShow]=useState(false);
    
@@ -20,7 +20,7 @@ const RecipeByLetter = ({alphaIndex}) => {
      },[url])
 
      const setIndex=(alpha) => {
-        setUrl(`https:/www.themealdb.com/api/json/v1/1/search.php?f=${alpha}`)
+        setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?f=${alpha}`)
      }
 
    return (

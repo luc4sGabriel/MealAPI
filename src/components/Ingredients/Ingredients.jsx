@@ -6,7 +6,7 @@ import IngredientsItems from '../ingredientsItems/IngredientsItems';
 
 const Ingredients = () => {
 
-  const [url, setUrl] = useState("https:/www.themealdb.com/api/json/v1/1/list.php?i=list");
+  const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/list.php?i=list");
   const [item,setItem]=useState();
   const [show,setShow]=useState(false);
   const [search,setSearch]=useState("");
@@ -21,7 +21,7 @@ const Ingredients = () => {
 
   const searchIngredient = (evt) => {
     if(evt.key == "Enter") {
-      setUrl(`https:/www.themealdb.com/api/json/v1/1/filter.php?i=${search}`)
+      setUrl(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${search}`)
     }
   }
 
