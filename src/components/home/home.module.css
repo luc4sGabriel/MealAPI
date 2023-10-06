@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    user-select: none;
+  }
+  
+body{
+    background-color: rgb(252, 249, 227);
+}
+  
+
+.main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color:#030e12;
+    font-size: 48px;
+    font-weight:900;
+    letter-spacing: 1px;
+    padding-top:2rem;
+    margin: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin:25px auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+
+.indexContainer{
+    display: flex;
+    margin: 2.5rem 0;
+}

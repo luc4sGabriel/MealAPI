@@ -1,0 +1,42 @@
+.content img{
+    width: 75%;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 500px;
+}
+
+.recipedetails{
+    width: 70%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients,.instructions{
+    flex-basis: 50%;
+    text-align: justify;
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.content .innercontent{
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 5px rgba(0,0,0,05);
+}
+
+.video{
+    width: 80%;
+    margin: 3rem auto;
+}
+
