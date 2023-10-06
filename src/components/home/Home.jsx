@@ -4,7 +4,7 @@ import MealItems from '../mealItems/MealItems'
 import Navbar from '../navbar/Navbar'
 
 const Home = () => {
-  const [url, setUrl] = useState("https:/www.themealdb.com/api/json/v1/1/search.php?f=c");
+  const [url, setUrl] = useState("https://www.themealdb.com/api/json/v1/1/search.php?f=c");
   const [item,setItem]=useState();
   const [show,setShow]=useState(false);
   
